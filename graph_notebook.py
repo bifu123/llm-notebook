@@ -148,7 +148,7 @@ if __name__ == "__main__":
         auth=(os.getenv("NEO4J_USER"), os.getenv("NEO4J_PASSWORD"))
     )
 
-    notebook = GraphNotebook(llm=lm, neo4j_driver=driver)
+    notebook = GraphNotebook(llm=llm, neo4j_driver=driver)
 
     
     while True:

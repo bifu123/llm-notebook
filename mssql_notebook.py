@@ -116,7 +116,7 @@ class TextNotebook:
 
 
 if __name__ == "__main__":
-    notebook = TextNotebook(llm=lm, db_config=mssql_config)
+    notebook = TextNotebook(llm=llm, db_config=mssql_config)
 
     while True:
         mode = input("🔧 输入 1 添加记事，输入 2 查询问题，输入 q 退出：")
